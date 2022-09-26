@@ -1,6 +1,8 @@
 package com.hackerearth.royshopping;
 
 /*
+Taken from: https://www.hackerearth.com/practice/math/number-theory/primality-tests/practice-problems/algorithm/roy-and-shopping-20/
+
 Alfi asked Roy to go for shopping with her. Witty Roy came up with a condition. He said, for each product of MRP (Maximum Retail Price) R, she'll have to pay minimum of all the prime factors of R and he himself will pay rest of the amount. Without giving it a second thought Alfi agreed.
 
 Now they bought N number of products. You're to find how much money did Roy had to pay for each product.
