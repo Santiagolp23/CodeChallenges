@@ -15,7 +15,12 @@ public class TestClass {
 
         //BufferedOutputStream
         BufferedOutputStream bos = new BufferedOutputStream(System.out);
-        bos.write(name.getBytes());
+
+        //StringBuilder for results
+        StringBuilder result = new StringBuilder();
+        result.append("Hello world\n");
+
+        bos.write(result.toString().getBytes());
         bos.flush();
 
     }
